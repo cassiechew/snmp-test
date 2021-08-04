@@ -4,10 +4,12 @@
   "version": "v0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./app.js"
+    "start": "node ./app.js",
+    "service": "node ./src/services/snmp-manager.js"
   },
   "dependencies": {
     "bluebird": "^3.7.2",
+    "bunyan": "^1.8.15",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",

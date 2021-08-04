@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["bluebird", "npm:3.7.2"],
+            ["bunyan", "npm:1.8.15"],
             ["cookie-parser", "npm:1.4.5"],
             ["debug", "virtual:3c4f7f349789d7597b53f6806dcbf71445596dd97a6a139314a632324e544d12b73623cfb0621bb9d37d8830b5ffbaf5935d9d709ca211a5a162bb877a1524e9#npm:2.6.9"],
             ["express", "npm:4.16.4"],
@@ -1685,6 +1686,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["snmp-test", "workspace:."],
             ["bluebird", "npm:3.7.2"],
+            ["bunyan", "npm:1.8.15"],
             ["cookie-parser", "npm:1.4.5"],
             ["debug", "virtual:3c4f7f349789d7597b53f6806dcbf71445596dd97a6a139314a632324e544d12b73623cfb0621bb9d37d8830b5ffbaf5935d9d709ca211a5a162bb877a1524e9#npm:2.6.9"],
             ["express", "npm:4.16.4"],

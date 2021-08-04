@@ -4,10 +4,16 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var config = require('./config/config.json');
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var indexRouter = require('./src/routes/index');
+var usersRouter = require('./src/routes/users');
 
 var app = express();
+
+const schedule = require('node-schedule');
+
+const job = schedule.scheduleJob('* * 1 * *', () => {
+    // Some sort of snmp query here
+});
 
 app.use(logger('dev'));
 app.use(express.json());

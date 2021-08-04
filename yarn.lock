@@ -174,7 +174,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bunyan@npm:~1.8":
+"bunyan@npm:^1.8.15, bunyan@npm:~1.8":
   version: 1.8.15
   resolution: "bunyan@npm:1.8.15"
   dependencies:
@@ -1433,6 +1433,7 @@ __metadata:
   resolution: "snmp-test@workspace:."
   dependencies:
     bluebird: ^3.7.2
+    bunyan: ^1.8.15
     cookie-parser: ~1.4.4
     debug: ~2.6.9
     express: ~4.16.1
